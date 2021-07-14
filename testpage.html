@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Testpage</title>
+        <style>
+            input[type=text], input[type=password] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
+            button {
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+            }
+            button:hover {
+                opacity: 0.8;
+            }
+            .container {
+                padding: 16px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div style="width: 30%; margin-left: 35%">
+            <h1 style="text-align: center;">LOGIN</h1>
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" id="pwdfield" placeholder="Enter Password" name="psw" required>
+                <button id="submitBtn" type="submit" onclick="alert('Login with: ' + pwdfield.value);">Login</button>
+
+            </div>
+        </div>
+    </body>
+</html>

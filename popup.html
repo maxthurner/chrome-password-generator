@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popupstyle.css">
+  </head>
+  <body>
+    <div class="containertop">
+      <h2 style="text-align: center;">Password Generator</h2>
+    </div>
+
+    <div class="containerbody" id="emailCheck" style="display: block;">
+      <label for="umale"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="umail" id="umail" required/>
+      <button id="loginbuttonEmail">Login</button>
+      <p>To login please simply put in your credentials. <br>Please use a strong Password!</p>
+      <h3>Make sure to remember the used information!</h3>
+    </div>
+
+    <div class="containerbody" id="pwdCheck" style="display: none;">
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="pwd" id="pwd" required />
+      <span id="pwdNotGood" style="color: red" hidden>Your password doesn't fit our policy</span>
+      <button id="loginbuttonPwd">Login</button>
+      <p>Password must be more than 10 characters long and contain Uppercase/Lowercase letters and numbers.</p>
+    </div>
+
+    <div class="containerbody" id="logintrue" style="display: none;">
+      <p>The Extension will automatically swap your password</p>
+      <p>Alternatively you can generate the password here:</p>
+      <div>
+        <input type="text" placeholder="Enter Webpage"  id="cWebpage" required/>
+        <input type="password" placeholder="Enter password"  id="cPwd" required/>
+        <div id="resultdiv">
+          <!--<span id="showPwd"></span>-->
+        </div>
+        <button id="generatePwd" >Generate</button>
+      </div>
+
+      <div style="text-align: center;">You are currently logged in
+        <button id="logoutBtn" style="background-color: orangered;">logout</button>
+      </div>
+    </div>
+
+    
+    <script src="popup.js"></script>
+    <script src="external/sha512.js"></script>
+    <script src="external/enc-base64-min.js"></script>
+    <script src="psl.min.js"></script>
+  </body>
+</html>
