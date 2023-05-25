@@ -6,8 +6,8 @@ Prototype to Bachelor Thesis of Maximilian Thurner
 This repository implements the passwort generation algorithm as an Google-Chrome Extension.  ![Passwort_Generierungskonzept_v2](https://user-images.githubusercontent.com/59063463/125648051-cc86f44d-a0fd-40eb-a631-cb93414010a7.png)
 -->
 
-This software can be used to harden your password by using multiple data to generate a strong password.
-The goal and the key element of the concept is, that the user does not have to change his behaviour.
+This software can be used to harden your password by using multiple data sources to generate a strong password.
+The goal and the key element of the concept is, that the user does not have to change his behaviour but still eliminate the problem of password-reuse and weak passwords.
 
 The extension automatically extracts the URL and the password out of the webpage and generates and inserts the new password into the page.
 
