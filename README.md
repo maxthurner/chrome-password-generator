@@ -57,5 +57,6 @@ To test the functionality of the prototype you can use the included file "testpa
 
 
 ## Generation algorithm
-The implemented algorithm for password generation is based upon this concept:
+The implemented algorithm for password generation is based upon this specially designed concept:
+
 ![Passwort_Generierungskonzept_v3](https://github.com/user-attachments/assets/7a7bfbf0-bdd5-4835-a71c-9af4b4cc9b9f)
