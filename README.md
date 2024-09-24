@@ -56,3 +56,6 @@ To test the functionality of the prototype you can use the included file "testpa
 ![testpage](https://user-images.githubusercontent.com/59063463/125655431-7945c609-3191-457c-8fa1-7acf34bfe212.PNG)
 
 
+## Generation algorithm
+The implemented algorithm for password generation is based upon this concept:
+![Passwort_Generierungskonzept_v3](https://github.com/user-attachments/assets/7a7bfbf0-bdd5-4835-a71c-9af4b4cc9b9f)
